@@ -1,0 +1,1 @@
+SELECT count(names) FROM students WHERE count_id = 1 AND count_id = 2 AND count_id = 3

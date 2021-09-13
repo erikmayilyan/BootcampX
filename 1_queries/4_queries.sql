@@ -1,0 +1,1 @@
+SELECT name, email, id, cohort_id FROM students Where email LIKE '%gmail.com'

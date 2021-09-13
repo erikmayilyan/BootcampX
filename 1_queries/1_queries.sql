@@ -1,0 +1,1 @@
+SELECT id, name FROM students ORDERED BY name ASC
