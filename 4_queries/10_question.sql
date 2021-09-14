@@ -1,0 +1,1 @@
+SELECT assignemnts.id, assignments.name, assignments.day, assignments.chapter, COUNT(assistance_requests.*) AS total_requests FROM assistance_requests JOIN assignments ON assistance_requests.assignment_id = assignments.id ORDER BY COUNT(assistance_requests.*) DESC

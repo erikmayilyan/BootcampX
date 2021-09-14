@@ -1,0 +1,1 @@
+SELECT day, COUNT(*) AS number_of_assignments, duration FROM assignments ORDER BY day GROUP BY day
